@@ -19,7 +19,7 @@ pipeline {
         sh '''
         sudo kauth
 
-        sudo kubectl set image deployment deploy-main ctm-main=dd0717/gyudong:newnewmain
+        sudo kubectl set image deployment deploy-main ctn-main=dd0717/gyudong:newnewmain
         '''
       }
     }
