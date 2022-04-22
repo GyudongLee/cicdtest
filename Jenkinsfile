@@ -9,8 +9,8 @@ pipeline {
     stage('docker build and push') {
       steps {
         sh '''
-        sudo docker build -t dd0717/gyudong:newnewmain .
-        sudo docker push dd0717/gyudong:newnewmain
+        sudo docker build -t dd0717/gyudong:blog .
+        sudo docker push dd0717/gyudong:blog
         '''
       }
     }
